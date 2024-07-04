@@ -1,0 +1,26 @@
+email acharyanaman4@gmail.com
+pwd Dhimahiacharya410
+username namanacharya
+
+
+
+=======================================
+Techniques used for push code on git
+
+1. git init
+2. git add .
+3. git status
+4. git config --global user.name "FIRST_NAME LAST_NAME"
+5. git config --global user.email "MY_NAME@example.com"
+6. git commit -m "module 1"
+7. git remote add origin https://github.com/tanvimeertops/topststingassign
+ment.git
+8. git push origin master
+
+2nd time repeat : step 2,6,8               
+
+
+
+
+
+

@@ -1,0 +1,91 @@
+{
+  "id": "79e86ddc-3508-4ff7-9e8c-d80cdea7e96c",
+  "version": "2.0",
+  "name": "Module1",
+  "url": "https://www.tops-int.com",
+  "tests": [{
+    "id": "6644c783-6124-4fc5-baa0-80fc0606a73e",
+    "name": "Module1_Test",
+    "commands": [{
+      "id": "d7186646-dc1e-4975-8f64-38fda912ecf0",
+      "comment": "",
+      "command": "open",
+      "target": "/contact-us",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a12da332-a2e2-4d98-9a0b-7d47fd608cd6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b5644be-0ecf-4d4d-b7a2-af8c99a1ee7f",
+      "comment": "",
+      "command": "click",
+      "target": "id=inq_name",
+      "targets": [
+        ["id=inq_name", "id"],
+        ["name=name", "name"],
+        ["css=.px-3 > div #inq_name", "css:finder"],
+        ["xpath=//input[@id='inq_name']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "598d031c-d18a-48d2-9d82-ff5164b61001",
+      "comment": "",
+      "command": "type",
+      "target": "id=inq_name",
+      "targets": [
+        ["id=inq_name", "id"],
+        ["name=name", "name"],
+        ["css=.px-3 > div #inq_name", "css:finder"],
+        ["xpath=//input[@id='inq_name']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "naman"
+    }, {
+      "id": "39732f24-b32c-476d-98ba-f79871b34f87",
+      "comment": "",
+      "command": "type",
+      "target": "id=inq_email",
+      "targets": [
+        ["id=inq_email", "id"],
+        ["name=email", "name"],
+        ["css=.px-3 > div #inq_email", "css:finder"],
+        ["xpath=//input[@id='inq_email']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "naman.acharya@gmail.com"
+    }, {
+      "id": "c28a56eb-15bc-453a-a2d9-33a6f39b2a4f",
+      "comment": "",
+      "command": "click",
+      "target": "id=inq_contact",
+      "targets": [
+        ["id=inq_contact", "id"],
+        ["name=contact", "name"],
+        ["css=.px-3 > div #inq_contact", "css:finder"],
+        ["xpath=//input[@id='inq_contact']", "xpath:attributes"],
+        ["xpath=//div[@id='course-page']/section[2]/div/div/div[2]/div/div[2]/div/div/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "667ade3d-d1d6-43b8-abfe-23a350c47440",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6644c783-6124-4fc5-baa0-80fc0606a73e"]
+  }],
+  "urls": ["https://www.tops-int.com/"],
+  "plugins": []
+}
